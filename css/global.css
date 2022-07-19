@@ -1,0 +1,102 @@
+
+body {
+  background-color: #F6EEE0;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+._glogo {
+  width:270px;
+  padding: 0;
+  margin: 0 0 -15px 0;
+}
+
+._cards {
+  background-color: #C38370;
+  padding: 20px 0;
+  margin: 0 33%;
+  color: #F6EEE0;
+  font-weight: bold;
+}
+
+._menuImage {
+  width: 25%;
+}
+
+._footer_logo {
+  width: 20%;
+}
+
+.about-us {
+  display:flex-justify; 
+  font: 1.6em times new roman; 
+  line-height: 1.8em;
+  color: #cc6633;
+}
+
+
+/* start of desktop styles */
+@media screen and (min-width: 1000px) {
+
+  body {
+
+  }
+
+  
+  .modal {
+    width: 50%;
+  }
+
+} /* end of desktop styles */
+
+
+/* start of large tablet styles */
+@media screen and (max-width: 999px) {
+
+    body {
+
+    }
+
+    ._glogo {
+      width:270px;
+      padding: 0;
+      margin: 0 0 -15px 0;
+    }
+
+    .modal {
+      width: 70%;
+    }
+
+    ._menuImage {
+      width: 50%;
+    }
+
+}
+/* end of large tablet styles */
+
+/* start of phone styles */
+@media screen and (max-width: 600px) {
+
+  body {
+
+  }
+
+  ._glogo {
+    width:270px;
+    padding: 0;
+    margin: 0 0 -15px 0;
+  }
+
+  .modal {
+    width: 90%;
+  }
+
+  ._menuImage {
+    width: 80%;
+  }
+
+}
+/* end of phone styles */
